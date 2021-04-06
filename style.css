@@ -1,0 +1,393 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+    width: 100%;
+    height: 46px;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    line-height: 46px;
+    position: fixed;
+    /*cố định thanh menu khi kéo xuống*/
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.item {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.item li {
+    display: block;
+}
+
+li.item:hover {
+    background: #CCCCCC;
+}
+
+.item a:hover {
+    color: black;
+}
+
+.item > a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+}
+
+
+.subnav {   
+    color: black;
+    position: absolute;
+    display: none;
+}
+
+.subnav li {
+    background: white;
+    padding: 0px 24px;
+}
+
+.subnav li:hover {
+    background: #CCCCCC;
+}
+
+.subnav a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.item:hover > .subnav {
+    display: block;
+}
+
+
+.banner {
+    width: 100%;
+    height: 630px;
+    background: url(img/banner1.jpg) top center / cover no-repeat;
+    /*cover là background-size: cover; lấy cạnh dài nhất nhận che khuất*/
+    /*no-repeat ko lặp lai ảnh*/
+    background-size: 100%;
+    margin-top: 46px;
+}
+
+
+.body {
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+    left: 50%;
+    left: 0;
+    right: 0;
+    padding: 0px 20px;
+    color: white;
+}
+
+.body h2 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.body p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.content {
+    width: 100%;
+    /*height: 650px;*/
+    padding: 64px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.content1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.content2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: block;
+    width: 768px;
+    margin: 0 286px;
+    text-align: justify;
+    margin-bottom: 15px;
+    box-sizing: inherit;
+}
+
+.name-list {
+    margin-top: 48px;
+    width: 768px;
+    height: 220px;
+    margin: 0 288px;
+    padding-top: 32px; 
+}
+
+.name-item {
+    float: left;
+    width: 256px;
+    height: 222px;
+}
+
+.name-item p {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nameimg {
+    width: 154px;
+}
+
+.content-list {
+    width: 100%;
+    height: 842px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: 30px;
+    padding: 64px 16px;
+}
+
+.content-list h2 {
+    margin: 25px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.content-list p {
+    margin: 20px 0;
+    color: #767676;
+    
+}
+
+.soldout{
+    width: 770px;
+    height: 120px;
+    background: white;
+    color: #757575;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin: 0 290px;
+} 
+
+.soldout ul {
+    list-style: none;
+}
+
+.soldout ul li {
+    border: 1px solid #ddd;
+    padding: 10.5px 16px;
+}
+
+.soldout span {
+    width: 69.70px;
+    height: 22px;
+    background: #F44336;
+    padding: 0 8px;
+    margin: 0 0 0 16px;
+    color: white;
+}
+
+.solid {
+    width: 770px;
+    height: 390px;
+    display: flex;
+    padding: 32px 8px;
+    margin: 0 275px;
+}
+
+.banner-1 {
+    width: 245.33px;
+    height: 386.27px;
+    padding: 8px;
+   
+}
+
+.solid-img {
+    width: 245.33px;
+    height: 183.98px;
+}
+
+.content-1 {
+    margin-top: -4px;
+    width: 245.33px;
+    height: 202.28px;
+    color: black;
+    background: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 0.15px 0;
+}
+
+.content-1 p {
+   margin: 17px;
+}
+
+.list-1 {
+    color: #A4A4A4;
+}
+
+.buy1 {
+    margin-top: 25px;
+}
+
+.buy1 a {
+    text-decoration: none;
+}
+
+.buy1 a p {
+    width: 108px;
+    height: 38px;
+    line-height: 38px;
+    background: #000000;
+    color: white;
+    text-align: center;
+}
+
+.banner-2 {
+    width: 245.33px;
+    height: 386.27px;
+    padding: 8px;
+}
+
+.banner-3 {
+    width: 245.33px;
+    height: 386.27px;
+    padding: 8px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.contact {
+    width: 100%;
+    height: 460px;
+    background: white;
+    text-align: center;
+    padding: 64px 16px;
+}
+
+.contact-12 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.content-em {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.contact-list {
+    width: 768px;
+    height: 222px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 32px 0;
+}
+
+.content-list1 {
+    width: 384px;
+    height: 81px;
+}
+
+.content-list1 p {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.modal {
+    width: 384px;
+    height: 158px;
+}
+
+.content-name {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+}
+
+.content-email {
+    width: 160px;
+    height: 40px;
+    padding: 0 8px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+
+.content-message {
+    width: 357px;
+    height: 40px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+}
+
+.send {
+    width: 72px;
+    height: 40px;
+    float: right;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin: 16px 0;
+    margin-right: 9px;
+}
+
+.send:hover {
+    background: #CCCCCC; 
+}
+
+.send a:hover {
+    color: black;
+}
+
+.send a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner1 {
+    width: 100%;
+    height: 762px;
+}
+
+
+footer {
+    width: 100%;
+    height: 217px;
+    /*position: fixed;*/
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.contentfooter {
+    text-align: center;
+    line-height: 217px;
+}
